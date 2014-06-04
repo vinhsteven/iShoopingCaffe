@@ -6,6 +6,10 @@
     android:id="@+id/layoutContain"
     android:orientation="vertical" >
     <include layout="@layout/header_textcenter" />
+    <HorizontalScrollView 
+    android:id="@+id/HorizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="45dp"
@@ -17,7 +21,7 @@
         android:paddingTop="5dp" >
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
@@ -35,9 +39,9 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="1.91"
             android:gravity="center"
             android:orientation="vertical" >
 
@@ -53,7 +57,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
@@ -61,7 +65,7 @@
 
             <Button
                 android:id="@+id/btnFavourite"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/selector_button_normal"
                 android:lines="2"
@@ -70,17 +74,17 @@
                 android:textColor="@color/selector_text_button_normal" />
         </LinearLayout>
     </LinearLayout>
-
+</HorizontalScrollView>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/line" />
 
-    <ListView
+	 <ListView
         android:id="@+id/listview_Drinks"
         
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:cacheColorHint="@android:color/transparent"
         android:clipChildren="true"
         android:divider="@android:color/transparent"
