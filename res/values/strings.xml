@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">iShoppingCoffe</string>
+    <string name="app_name">iShoppingCoffe</string>
+    <string name="decriptionImage">iShoppingCoffe</string>
+    
+    <string name="btnShare"> Share </string>
+    <string name="btnBack"> Back </string>
+    <string name="btnNext">Next</string>
+    <string name="btnDelete"> Delete </string>
+    <string name="btnOrder"> Order </string>
+	<string name="btnOk"> OK </string>
+	<string name="btnEdit"> Edit </string>
+	<string name="btnService"> Service </string>
+	<string name="btnProduct"> Product </string>
+	<string name="btnPackage"> Package </string>
+	<string name="btnSelect"> Select </string>
+	<string name="btnSelect_">Select</string>
+	<string name="btnBook"> Book </string>
+	<string name="btnRequest"> Request </string>
+	<string name="btnRequest_">Request</string>
+	<string name="text_get_direction"><u>Get direction</u></string>
+	<string name="btnCancel">Cancel</string>
+    <string name="btnDone"> Done </string>
+    <string name="btnConfirm"> Confirm </string>
+    <string name="btnPreview"> Preview </string>
+    <string name="btnCheck"> Check </string>
+    <string name="btnSave"> Save </string>
+    <string name="btnYes"> Yes </string>
+    <string name="btnNo"> No </string>
+    <string name="btnApply">Apply</string>
+    <string name="textWarning">Thông báo</string>
+    
+    <string name="textKhamPha">Khám phá</string> 
+    <string name="textTim">Tìm</string> 
+    <string name="textQuanly">Quản lý</string> 
+    <string name="textGioHang">Giỏ Hàng</string>
+    <string name="coffe">Coffee</string>
+    <string name="drinkOther">Thức uống khác</string>
+    <string name="favourite">Ưu thích</string>
+    <string name="description">Description</string>
+    <string name="addtocart">Thêm vào giỏ hàng</string>
+    <string name="readmore">Đọc thêm</string>
+    <string name="comment">Nhận xét</string>
+    <string name="add">Thêm</string>
+    <string name="become_first_person">Trở thành người đầu tiên nhận xét</string>
+    <string name="title_add_review">Thêm nhận xét</string>
+    <string name="title_your_rating">Đánh giá</string>
+    
+    <!-- shopping cart view -->
+    <string name="titleShoppingCart">My Cart</string>
+    <string name="contentSendEmailPayment">Your payment gateway request</string>
+    
+    <string name="error_no_email_clients_installed">There are no email clients installed.</string>
+    <string name="message_not_exist_country_payment">Please select country for payment!</string>
+    <string name="message_not_exist_payment_gateway">No payment gateway is supported currently. Please contact us to tackle this problem!</string>
+    <string name="error_not_enter_address_shopping_billing">Please enter your shipping address!</string>
+    <string name="error_not_enter_first_name_shopping_billing">Please enter your shipping first name!</string>
+    <string name="error_not_enter_last_name_shopping_billing">Please enter your shipping last name!</string>
+    <string name="error_not_enter_city_shopping_billing">Please enter your shipping city!</string>
+    <string name="error_not_enter_state_shopping_billing">Please enter your shipping state!</string>
+    <string name="error_not_enter_zipcode_shopping_billing">Please enter your shipping zip code!</string>
+    <string name="error_not_enter_phone_shopping_billing">Please enter your shipping phone!</string>
+    <string name="error_not_choose_country_shopping_billing">Please select your shipping country!</string>
+    
+    <!-- payment gateway -->
+    <string name="txtPaymentGateway">Payment Gateway</string>
+    <string name="txtYourInformation">Your Information</string>
+    <string name="txtYourEmail">Your Email</string>
+    <string name="txtYourName">Your Name</string>
+    <string name="country">VietNam</string>
+    <!-- end payment gateway -->
+    
+    <string name="txtUseDefault">Use this as billing address</string>
+    <string name="titleBilling">Payment Information</string>
+    <string name="txtTitlePromotion">Promotion</string>
+    <string name="txtTitlePromotions">Promotions</string>
+    <string name="txtTitlePromotionDetails">Promotion Details</string>
+    <string name="txtCardEmpty">Your cart is empty</string>
+    <string name="txtPrice">Price</string>    
+    <string name="txtYouritems">Các món đồ</string>
+    <string name="txtItems">items</string>
+    <string name="txtItem">item</string>
+    
+    <string name="txtQuantity">Quantity</string>
+    <string name="txtUnitOfMeasure">Unit Of Measure</string>
+    <string name="txtBuyAsGuess">Buy as Guest</string>
+    <string name="txtLogin">Login</string>    
+    <string name="txtRegister">Register</string>
+    <string name="txtFail">Fail</string>
+    
+    <string name="hintEmail">Email</string>
+    <string name="txtEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintCardNumber">Card number</string>
+    <string name="hintCVV">CVV</string>
+    <string name="hintAddress">Address</string>
+    <string name="hintEmail1">Email</string>
+    <string name="hintFirstName">First name</string>
+    <string name="hintLastName">Last name</string>
+    <string name="hintCity">City</string>
+    <string name="hintState">State/Province/Region</string>
+    <string name="hintZipCode">ZIP Code</string>
+    <string name="hintPhoneNumber">Phone Number</string>
+    <string name="txtCardInformation">Card Informations</string>
+    <string name="txtBillingAddress">Billing Address</string>
+    <string name="txtShippingAddress">Shipping Address</string>
+    <string name="txtPaymentMethod">Authorize</string>
+    <string name="authorized">Authorized</string>
+    <string name="txtSelectCreditCard">Select card type</string>
+    <string name="txtSelectExpiryDate">Select card expiry</string>
+    <string name="congratulation_payment_mycart">Your proceed was successfully!</string>
+    <string name="fail_payment_mycart">Your proceed was failed.</string>
+    
+    <string name="v_firstname">*First name</string>
+ 	<string name="v_lastname">*Last name</string>
+ 	<string name="v_emailAddres">*Email address</string>
+ 	<string name="v_VerifyEmail">*Verify email address</string>
+ 	<string name="v_Password">*Password</string>
+ 	<string name="v_VerifyPassword">*Verify password</string>
+ 	<string name="v_Phonenumber">*Phone number</string>
+ 	<!-- shopping cart layout -->
+ 	<string name="buy_to_friend">Buy to friend</string>
+ 	<string name="name_you_want">Name you want the recipient see</string>
+ 	<string name="enter_email_address">Enter email address:</string>
+ 	<string name="service_temporarily_unavailable">Service Temporarily Unavailable!</string>
+ 	<string name="mGift_btnGiftForFriend">Gift For Friend</string>
+    <string name="mGift_from">From:</string>
+    <string name="mGift_to">To:</string>
+    <string name="mGift_balance">Balance:</string>
+    <string name="mGift_valid">Valid:</string>
+    <string name="mGift_transaction">Transaction History</string>
+   	<string name="mGift_Deposit">Deposit:</string>
+   	<string name="mGift_Payment">Payment:</string>
+   	<string name="mGift_Date">Date:</string>
+   	<string name="titleFriendName">Buy as gift for:</string>
+ 	<string name="titleFriendEmail">Recipient\'s Email:</string>
+ 	<string name="titleNameRecipient">Recipient\'s Name</string>
+ 	<string name="titleEmailRecipient">Recipient\'s Email</string>
+ 	<string name="titleInforRecipient">Recipient\'s Info</string>
+ 	<string name="enter_the_recipient_email_address">Recipient\'s email address</string>
+ 	<string name="error_cancel_my_coupon">Can\'t cancel my coupon, please try again.</string>
+ 	
+ 	<string name="error_not_choose_credit_card_type">Please select card type!</string>
+    <string name="error_not_enter_credit_card_number">Please enter your card number!</string>
+    <string name="error_not_enter_credit_card_expried_date">Please select card expiry!</string>
+    <string name="error_not_enter_credit_card_cvv">Please enter your card CVV!</string>
+    
+    <string name="error_not_choose_amount">Please enter your amount.</string>
+    <string name="error_not_choose_payment_method">Please select payment method!</string>
+    <string name="error_not_choose_country">Please select your country!</string>
+    <string name="error_not_enter_address">Please enter your address!</string>
+    <string name="error_not_enter_first_name">Please enter your first name!</string>
+    <string name="error_not_enter_last_name">Please enter your last name!</string>
+    <string name="error_not_enter_email">Please enter your email address!</string>
+    <string name="error_not_enter_confirm_email">Email doesn\'t match!</string>
+    <string name="error_not_enter_password">Please enter your password!</string>
+    <string name="error_not_enter_confirm_password">Password doesn\'t match!</string>
+    <string name="error_not_enter_city">Please enter your city!</string>
+    <string name="error_not_enter_state">Please enter your state!</string>
+    <string name="error_not_enter_zip_code">Please enter your ZIP code!</string>
+    <string name="error_not_enter_phone">Please enter your phone!</string>
+    <string name="error_not_enter_quantity">Your quantity must greater than 0.</string>
+    <string name="error_not_enter_recipient_email">Please enter recipient\'s email.</string>
+    <string name="error_not_enter_recipient_name">Please enter recipient\'s name.</string>
+    <string name="error_not_enter_your_name">Please enter your name.</string>
+    <string name="firstname_must_not_be_blank">First name must not be blank.</string>
+    <string name="lastname_must_not_be_blank">Last name must not be blank.</string>
+    <string name="phone_must_not_be_blank">Phone must not be blank.</string>
+    
+    <string name="error_not_enter_information">Please input information!</string>
+    <string name="error_email_invalid">Invalid email format!</string>
+    <string name="error_input_user_name">Please input user name.</string>
+ 	<string name="error_input_password">Please input your password.</string>
+ 	<string name="lb_total_MyAppointment_details">Total:</string>
+	
+ 	<!--view billing  -->
+ 	<string name="billing">Billing</string>
+ 	<string name="shipping">Shipping</string>
+ 	<string name="next">Next</string>
+ 	<string name="notes">Notes:</string>
+ 	<string name="notes_sale">Ghi chú đơn hàng</string>
+ 	<string name="same_as_billing_address">Same as Billing Address</string>
+ 	<string name="summary">Tóm tắt</string>
+ 	<string name="order">Đặt hàng</string>
+ 	<string name="add_promotion">Thêm phiếu giảm giá</string>
+ 	<string name="txtTotalPrice">TỔNG TIỀN</string>
+ 	<string name="txtTotalSummary">TỔNG CỘNG</string>
+ 	<string name="txtTransport">VẬN CHUYỂN</string>
+ 	<string name="choose_payment_getway">Chọn phương thức thanh toán</string>
+ 	<string name="priceTransport">Phí vận chuyển:</string>
+ 	<string name="payment_when_receive_product">Thanh toán khi nhận hàng</string>
+</resources>

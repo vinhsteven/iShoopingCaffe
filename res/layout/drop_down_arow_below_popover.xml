@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:background="@drawable/border_drop_down"
+	    >
+	    <LinearLayout 
+	        android:id="@+id/listAction"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:background="@drawable/bg_white"
+	        />
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/imageArrowAbove"
+	    android:layout_width="20dp"
+	    android:layout_height="10dp"
+	    android:src="@drawable/arrow_below_drop_down"
+	    android:contentDescription="@string/app_name"
+	    />
+</LinearLayout>

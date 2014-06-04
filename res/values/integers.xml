@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="step_load_more_list">10</integer>
+</resources>

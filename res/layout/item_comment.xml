@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_gray_white_3radius"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+         >
+
+        <ImageView
+            android:id="@+id/imv_User"
+            android:layout_width="@dimen/image_circle_size_avatar_user"
+            android:layout_height="@dimen/image_circle_size_avatar_user"
+            android:background="@drawable/circle_poster_activity_node_detail"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_comment"
+            android:scaleType="centerInside"
+            android:layout_marginRight="7dp"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/imv_User" >
+
+            <TextView
+                android:id="@+id/txtUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="adalkjwk"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                 />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="20dp"
+                android:numStars="5"
+                android:progressDrawable="@drawable/ratingbar_progress"
+                android:rating="2.0"
+                android:stepSize="1.0" />
+
+            <TextView
+                android:id="@+id/txtDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="adalkjwk"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                 />
+        </LinearLayout>
+   </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtContentComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="adalkjwk"
+        android:textSize="12sp"
+        android:textStyle="italic" 
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/text_normal"
+        />
+
+    <TextView
+        android:id="@+id/txtTimeComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:paddingRight="10dp"
+        android:paddingBottom="3dp"
+        android:textColor="@color/text_normal"
+         />
+
+</LinearLayout>

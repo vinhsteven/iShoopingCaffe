@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Header -->
+
+    <include layout="@layout/header_textcenter_back_option" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/btnTheSameAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_button_green"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/same_as_billing_address"
+                android:textColor="@color/selector_text_white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/notes"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtNotes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/border_line"
+                android:hint="@string/notes_sale"
+                android:inputType="text"
+                android:minHeight="30dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtEmail"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtEmailAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/border_line"
+                android:hint="@string/hintEmail"
+                android:inputType="textEmailAddress" />
+            <!-- end card infor -->
+            <!-- billing address infor -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtBillingAddress"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/border_line"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edtPhone_PaymentInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="middle"
+                    android:hint="@string/hintPhoneNumber"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderimage" />
+
+                <EditText
+                    android:id="@+id/edtAddress_PaymentInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="middle"
+                    android:hint="@string/hintAddress"
+                    android:imeOptions="actionNext"
+                    android:padding="10dip"
+                    android:textColor="@color/text_normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderimage" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edtFirstName_PaymentInfor"
+                        android:layout_width="0dip"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:hint="@string/hintFirstName"
+                        android:imeOptions="actionNext"
+                        android:padding="10dip"
+                        android:singleLine="true"
+                        android:textColor="@color/text_normal" />
+
+                    <EditText
+                        android:id="@+id/edtLastName_PaymentInfor"
+                        android:layout_width="0dip"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:hint="@string/hintLastName"
+                        android:imeOptions="actionNext"
+                        android:padding="10dip"
+                        android:singleLine="true"
+                        android:textColor="@color/text_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderimage" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edtCity_PaymentInfor"
+                        android:layout_width="0dip"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:hint="@string/hintCity"
+                        android:imeOptions="actionNext"
+                        android:padding="10dip"
+                        android:singleLine="true"
+                        android:textColor="@color/text_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderimage" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edtState_PaymentInfor"
+                        android:layout_width="0dip"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:hint="@string/hintState"
+                        android:imeOptions="actionNext"
+                        android:padding="10dip"
+                        android:singleLine="true"
+                        android:textColor="@color/text_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderimage" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <EditText
+                        android:id="@+id/edtZipcode_PaymentInfor"
+                        android:layout_width="0dip"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:hint="@string/hintZipCode"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="10dip"
+                        android:singleLine="true"
+                        android:textColor="@color/text_normal" />
+
+                    <Button
+                        android:id="@+id/btnSelectCountry_PaymentInfor"
+                        android:layout_width="0dip"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:padding="10dip"
+                        android:text="@string/country"
+                        android:textColor="@color/text_normal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- end billing address infor -->
+
+</LinearLayout>

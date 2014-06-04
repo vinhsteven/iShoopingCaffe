@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMainView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/menuListAddReviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgheader" >
+
+        <Button
+            android:id="@+id/btnAddReviewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_back_selection"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/title_add_review"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAddReviewDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_save" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/listratingAddreview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuListAddReviews"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="@string/title_your_rating"
+                android:textColor="@color/text_normal" />
+
+            <RatingBar
+                android:id="@+id/ratingOverralAddReview"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:isIndicator="false"
+                android:minHeight="20dp"
+                android:numStars="5"
+                android:progressDrawable="@drawable/ratingbar_progress"
+                android:stepSize="1" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_contentAddReviews"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/border_line"
+            android:gravity="left"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="250"
+            android:minHeight="100dp"
+            android:padding="5dp"
+            android:textColor="@color/text_normal"
+            android:textColorHint="@color/text_normal" />
+    </LinearLayout>
+
+</RelativeLayout>

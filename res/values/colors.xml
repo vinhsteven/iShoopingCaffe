@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>         
+	<color name="white">#FFFFFFFF</color>         
+	<color name="black">#000000</color>
+	<color name="red">#ff0000</color>
+	<color name="text_normal">#0D0B26</color>
+	<color name="text_pink">#000000</color>
+	<color name="borderline">#A8A7A7</color>
+	<color name="borderdropdown">#0f1c37</color>
+	<color name="borderimage">#c7c1c5</color>
+	<color name="bg_category">#b7b9b7</color>
+	<color name="blue">#0083CB</color>
+    <color name="text_orange">#FF8040</color>
+    <color name="text_blue">#375589</color>
+    <color name="text_green">#01a54f</color>
+    <color name="line_calendar">#8ACCCCCC</color>
+    
+	<color name="text_my_booking_time">#375388</color>
+	<color name="text_my_booking_money">#5dbd8c</color>
+	<color name="text_my_booking_status">#FF0000</color>
+	<color name="text_my_booking_salon_name">#ee8024</color>
+	
+	<color name="text_calendar">#ac967f</color>
+	<color name="text_calendar_day_nomal">#ac967f</color>
+	<color name="text_calendar_day_sunday">#ff0000</color>
+	<color name="text_calendar_day_nomal_out_month">#d5cabf</color>
+	<color name="text_calendar_day_sunday_out_month">#e0907a</color>
+	<color name="text_calendar_day_selected">#ffffff</color>
+	<color name="bg_calendar_day_current">#00ffff</color>
+	<color name="bg_calendar_day_normal">#ffffff</color>
+	<color name="bg_calendar_day_selected">#e66014</color>
+	
+	<color name="text_button_select_focus">#ffffff</color>
+	<color name="text_button_select_unfocus">#5e5e5e</color>
+	<color name="text_orange2">#ee8024</color>
+	<color name="text_gray">#5e5e5e</color>
+	<color name="text_gray_deal">#a9a9a9</color>
+	
+	  <color name="possible_result_points">#c0ffff00</color>
+	  <color name="result_minor_text">#ffc0c0c0</color>
+	  <color name="result_text">#ffffffff</color>
+	  <color name="result_view">#b0000000</color>
+	  <color name="sbc_list_item">#fffff0e0</color>
+	  <color name="sbc_page_number_text">#ff000000</color>
+	  <color name="sbc_snippet_text">#ff4b4b4b</color>
+	  <color name="status_text">#ffffffff</color>
+	  <color name="transparent">#00000000</color>
+	  <color name="viewfinder_frame">#ff000000</color>
+	  <color name="viewfinder_laser">#ffff0000</color>
+	  <color name="viewfinder_mask">#60000000</color>
+	  <color name="color_chop_selected">#CE8957</color>
+	  <color name="color_chop">#A4A29F</color>
+	  
+	  <color name="brown_coffe">#68450E</color>
+	  <color name="line">#7A7A7A</color>
+</resources> 
